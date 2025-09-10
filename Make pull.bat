@@ -14,5 +14,9 @@ if errorlevel 1 (
     pause
 )
 
+echo.
+echo Pull LFS files
+git lfs pull
+
 echo The project is successfully updated!
 timeout /t 3
