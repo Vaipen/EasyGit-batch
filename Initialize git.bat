@@ -10,6 +10,10 @@ if errorlevel 0 (
     pause
 )
 
+echo To avoid always entering "git config" run the command in Git Bash > git config --global user.name "your username" 
+
+echo git config --global user.email "your email" 
+
 git status
 
 echo Git is successfully initialized and connected!
